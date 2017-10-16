@@ -11,7 +11,7 @@ $no=1;
 			echo "<form action=index.php method=GET name=form1 target=_self>
 			<input name=SET type=HIDDEN value='$SET'>
 			<input name=TOPIK type=HIDDEN value='$data_cari[TOPIK]'>
-			<input type=SUBMIT value='Go'><font size=2> $data_cari[TOPIK]</form><BR>";
+			<p><input type=SUBMIT class='btn btn-info' value='$data_cari[TOPIK]'><font size=2> </form></p>";
 $no++;
 	}
 ECHO"$G";

@@ -19,9 +19,17 @@ $ID= $_GET['ID'];
 	$jumlah=mysql_num_rows($qry_cari);
 
 	if (mysql_num_rows($qry_cari)==0) {
-		echo "SALAH COY $ID $PASSWORD $OPERATOR";
-		exit;}
-
+		echo "<p onload='alert('Image is loaded');'>Maaf, Username dan Password tidak cocok. $ID $PASSWORD $OPERATOR<p>
+		<a href='../index.php?SET=admin'> Kembali Kehalaman Login</a>
+		<script type='text/javascript'>
+		  	function loadImage() {
+		  	    alert('Image is loaded');
+		 	}
+		  </script>";
+		
+		// header("location : ../index.php?SET=admin");
+		// exit;
+	}
 		while($data_cari=mysql_fetch_array($qry_cari)){		
 			$tgl=substr($data_cari['tgl_data'],8,2);
 			$bln=substr($data_cari['tgl_data'],5,2);

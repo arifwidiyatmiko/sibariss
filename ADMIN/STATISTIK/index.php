@@ -14,12 +14,18 @@ $no=1;
 			echo "<form action=index.php method=GET name=form1 target=_self>
 			<input name=SET type=HIDDEN value='$SET'>
 			<input name=TOPIK type=HIDDEN value='$data_cari[TOPIK]'>
+      <input name=DISPLAY type=HIDDEN value='before'>
 			<input type=SUBMIT value='Go'><font size=2> $data_cari[TOPIK]</form><BR>";
 $no++;
 	}
 ECHO"$G";
+
 ?>
+<!-- <td id="button"> -->
+            
+        <!-- </td> -->
         </td>
+        
         <td width="75%" valign="top"> 
           <?PHP
 $TOPIK=$_GET['TOPIK'];
@@ -29,6 +35,7 @@ $SET=$_GET['SET'];
 include_once "$JURNAL";
 ?>
         </td>
+        
       </tr>
     </table>
     <strong><font size="5" face="Geneva, Arial, Helvetica, sans-serif">JENIS BARANG 

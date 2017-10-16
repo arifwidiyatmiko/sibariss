@@ -1,189 +1,131 @@
-<head><meta http-equiv="refresh" content="60">
-<link rel="shortcut icon" href="http:d2.gif">
-<title>SIBARISS</title>				
-<style type="text/css" media="">
-.button_green
-{
-    border-top:1px solid #d1e459;
-    border-left:1px solid #d1e459;
-    border-right:1px solid #1c3403;
-    border-bottom:1px solid #1c3403;
-    background-color:#97d937;
-    font-family: Tahoma,Arial,Helvetica,sans-serif;
-    font-size:12px;
-	color:#000000;
-    font-weight:;
-    padding:2px 5px 2px 5px;
-}
-.button_blue
-{
-    border-top:1px solid #d1e459;
-    border-left:1px solid #d1e459;
-    border-right:1px solid #1c3403;
-    border-bottom:1px solid #1c3403;
-    background-color:#0000FF;
-    font-family: Tahoma,Arial,Helvetica,sans-serif;
-    font-size:12px;
-    color:#ffffff;
-    font-weight:liht;
-    padding:2px 5px 2px 5px;
-}
 
-.button_red
-{
-    border-top:1px solid #000000;
-    border-left:1px solid #000000;
-    border-right:1px solid #000000;
-    border-bottom:1px solid #000000;
-    background-color:#cc0000;
-    font-family: Tahoma,Arial,Helvetica,sans-serif;
-    font-size:12px;
-    color:#ffffff;
-    font-weight:;
-    padding:2px 5px 2px 5px;
-}
-</style>
-            <?php
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http:d2.gif">
+
+    <title>SIBARISS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+  </head>
+  <?php
 include_once "koneksi/koneksi.php";
 ?>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<!--[if !IE]> -->
-		<link rel="stylesheet" type="text/css" href="badan/fontstyle-css.css">
-		<link rel="stylesheet" type="text/css" href="badan/bootstrap2.css">
-		<link rel="stylesheet" type="text/css" href="badan/slidebars.css">
-		<link rel="stylesheet" type="text/css" href="badan/slidebars-theme.css">
-		<link rel="stylesheet" type="text/css" href="badan/style.css">
-		<link rel="stylesheet" type="text/css" href="badan/prettify.css">
-		<link rel="stylesheet" type="text/css" href="badan/easy-responsive-tabs.css">
-		<link rel="stylesheet" type="text/css" href="badan/responsive-accordion.css">
-		<link rel="stylesheet" type="text/css" href="badan/font-awesome.css">	
-		<link rel="stylesheet" type="text/css" href="badan/all-sizes.css">
-		<link rel="stylesheet" type="text/css" href="badan/large-desktop-size.css">				
-		<link rel="stylesheet" type="text/css" href="badan/desktop-size.css">
-		<link rel="stylesheet" type="text/css" href="badan/tablet-size.css">
-		<link rel="stylesheet" type="text/css" href="badan/phone-size.css">
-<!-- <![endif]-->
-<!--[if gte IE 9]>
-		<link rel="stylesheet" type="text/css" href="/css/mobile/fontstyle-css.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/bootstrap2.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/slidebars.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/slidebars-theme.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/style.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/prettify.css">
-		<link rel="stylesheet" type="text/css" href="/css/easy-responsive-tabs.css">
-		<link rel="stylesheet" type="text/css" href="/css/accordion/responsive-accordion.css">
-		<link rel="stylesheet" type="text/css" href="/css/font-awesome/css/font-awesome.min.css">	
-		<link rel="stylesheet" type="text/css" href="/css/all-sizes.css">
-		<link rel="stylesheet" type="text/css" href="/css/large-desktop-size.css">				
-		<link rel="stylesheet" type="text/css" href="/css/desktop-size.css">
-		<link rel="stylesheet" type="text/css" href="/css/tablet-size.css">
-		<link rel="stylesheet" type="text/css" href="/css/phone-size.css">
-<![endif]-->
+  <body id="page-top">
 
-<!--[if lte IE 8]>
-		<link rel="stylesheet" type="text/css" href="/css/mobile/fontstyle-css.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/bootstrap2.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/slidebars.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/slidebars-theme.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/style.css">
-		<link rel="stylesheet" type="text/css" href="/css/mobile/prettify.css">
-		<link rel="stylesheet" type="text/css" href="/css/easy-responsive-tabs.css">
-		<link rel="stylesheet" type="text/css" href="/css/accordion/responsive-accordion.css">
-		<link rel="stylesheet" type="text/css" href="/css/font-awesome/css/font-awesome.min.css">	
-<link rel="stylesheet" type="text/css" href="/css/lte-ie8.css">
-<![endif]-->
-		
-				<style>
-		.navbar-fixed-top, .navbar-fixed-bottom {
-			z-index: 999;
-		}
-		</style>
-		<link type="text/css" href="badan/basic.css" rel="stylesheet">
-				<link type="text/css" href="badan/slick.css" rel="stylesheet">
-		
-				
-		<!-- Scripts -->
-		<!-- jQuery -->
-		
-		<script src="badan/analytics.js" async=""></script><script src="badan/jquery_002.js"></script>
-		<script async="" src="badan/easyResponsiveTabs.js"></script>
-		
-		<!-- Bootstrap -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sibariss</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.php?SET=RUANG">Tata Ruang Kantor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.php?SET=ATURAN">Koleksi Peraturan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.php?SET=admin">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<script src="badan/request" async="" type="text/javascript"></script></head>
-	
-<body bgcolor="#CCCCCC">
-<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
-  <tr bgcolor="#FFFFFF"> 
-    <td valign="top">&nbsp;</td>
-    <td valign="middle">&nbsp;</td>
-    <td valign="middle">&nbsp;</td>
-  </tr>
-  <tr bgcolor="#FFFFFF"> 
-    <td valign="top"> <div align="right"><img src="d2.gif" width="150" height="150"></div></td>
-    <td valign="middle">&nbsp;</td>
-    <td valign="middle"><font color="#000000" size="6" face="Geneva, Arial, Helvetica, sans-serif"><strong>Sistem 
-      Informasi Barang Inventarisasi Berbasis Spasial<BR>(SIBarISS)</strong></font><br> <font size="5" face="Verdana, Arial, Helvetica, sans-serif">Deputi 
-      Bidang Koordinasi Sumber Daya Alam dan Jasa</font></td>
-  </tr>
-  <tr bgcolor="#FFFFFF"> 
-    <td width="18%" valign="top">&nbsp;</td>
-    <td width="1%" valign="middle">&nbsp;</td>
-    <td width="81%" valign="middle">&nbsp;</td>
-  </tr>
-  <tr> 
-    <td colspan="3" valign="top" bgcolor="#0099FF"> <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr> 
-          <td width="5%"> 
-            <?php
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Sibariss</h1>
+        <!-- <img src=""> -->
+        <p class="lead">Sistem Informasi Barang Inventaris berbasis spasial</p>
+      </div>
+    </header>
 
-			echo "<tr>
-<form action=index.php method=GET target=_self>
-<input type=submit value='Home'></form>
+    <section id="about">
+      <div class="container-fluid" style="margin-top: -100px;">
+        <div class="row">
+          <!-- <div class="col-lg-12"> -->
+            <div class="col-sm-1">
+              <div class="list-group">
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-22</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-21</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active ">F-20</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-18</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-17</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-16</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-15</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-14</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-13</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-12</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-11</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-10</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-09</a>
+                <a href="index.php?DENAH=denah8&HAK=Deputi Bidang Koordinasi Sumber Daya Alam dan Jasa" class="list-group-item list-group-item-success">F-08</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active ">F-07</a>
+                <a href="index.php?DENAH=&HAK=Biro Umum" class="list-group-item active">F-06</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-05</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-04</a>
 
-<form action=index.php method=GET target=_self>
-<input type=hidden name=SET value='RUANG'>
-<input type=submit value='Tata Ruang Kantor'>
-</form>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-03</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-02</a>
+                <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-01</a>
+              </div> 
+            </div>
+            <div class="col-sm-9">
+              <?php
+                $SET= $_GET['SET'];
+                  if ($SET=='') {$JURNAL='tower.php';}else {;}
+                  if ($DENAH<>'') {$JURNAL='tower.php';}else {;}
+                  if ($SET=='admin') {$JURNAL='umum/SETTING.php';}else {;}
+                  if ($SET=='RUANG') {$JURNAL='ADMIN/STATISTIK/index.php';}else {;}
+                  if ($SET=='BOOK') {$JURNAL='book/SETTING.php';}else {;}
+                  if ($SET=='ATURAN') {$JURNAL='ATURAN.php';}else {;}
+                include_once "$JURNAL";
+                ?>
+              <!-- <img src="umum/tower.jpg" class="img-responsive" alt="Image"> -->
+            </div>
 
-<form action=index.php method=GET target=_self>
-<input type=hidden value='Agenda'></form>
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
 
-<form action=index.php method=GET target=_self>
-<input type=hidden name=SET value='ATURAN'>
-<input type=SUBMIT value='Koleksi Peraturan'>
-</form>
+  
+    <!-- Footer -->
+<!--     <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+    </footer>
+ -->
 
-<form action=index.php method=GET target=_self>
-<input type=hidden name=SET value='admin'>
-<input type=submit class=button_blue value='Admin'>
-</form>
+  </body>
 
-";
-?>
-          </td>
-        </tr>
-      </table></td>
-  </tr>
-  <tr> 
-    <td colspan="3" valign="top" bgcolor="#CCCCCC"> <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
-        <tr bgcolor="#999999"> 
-          <td width="25" colspan="2" valign="top">&nbsp;</td>
-        </tr>
-        <tr> 
-          <td colspan="2" valign="top"> 
-            <?php
-$SET= $_GET['SET'];
-	if ($SET=='') {$JURNAL='tower.php';}else {;}
-	if ($DENAH<>'') {$JURNAL='tower.php';}else {;}
-	if ($SET=='admin') {$JURNAL='umum/SETTING.php';}else {;}
-	if ($SET=='RUANG') {$JURNAL='ADMIN/STATISTIK/index.php';}else {;}
-	if ($SET=='BOOK') {$JURNAL='book/SETTING.php';}else {;}
-	if ($SET=='ATURAN') {$JURNAL='ATURAN.php';}else {;}
-include_once "$JURNAL";
-?>
-          </td>
-        </tr>
-      </table></td>
-  </tr>
-</table>
+</html>

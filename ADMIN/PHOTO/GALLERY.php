@@ -47,6 +47,7 @@ $no=1;
 			<input name=MENU type=HIDDEN value='$MENU'>
 			<input name=SATKER type=HIDDEN value='$data_cari[TOPIK]'>
 			<input name=KODE type=HIDDEN value='$data_cari[KODE]'>
+			<input name=DISPLAY type=HIDDEN value='before'>
 			<input type=SUBMIT value='Go'><font size=2>$no. $data_cari[TOPIK]</form><BR>";
 $no++;
 	}

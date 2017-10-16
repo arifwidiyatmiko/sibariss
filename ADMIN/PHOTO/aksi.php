@@ -165,7 +165,7 @@ echo "<tr><form action=aksi_data.php method=GET name=form1 target=_self>
 		<input type='hidden' name=MENU value='$MENU'>
 		<input type='hidden' name=TOPIK value='$data_cari[TOPIK]'>
 		<input type='hidden' name=HAK value='$HAK'>
-		<input type=\"submit\" value=\"Photo\"></form>
+		<input type='submit' value='Unggah'></form>
 	</TABLE>
 
 ";

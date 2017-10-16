@@ -47,13 +47,13 @@ $SATKER= $_GET['SATKER'];
 	$qry_cari = mysql_query($sql_cari, $konek) or die ("Gagal query cari");
 	$jumlah=mysql_num_rows($qry_cari);
 
-		echo "<table border=1 >			
+		echo "<table border=1 class='table table-bordered'>			
 			<th><TABLE WIDTH=>NO</TABLE>
 			<Th><TABLE WIDTH=>Daftar Inventaris</font></TABLE>	
 			<Th><TABLE WIDTH=>Merk</TABLE>	
 			<Th><TABLE WIDTH=>Jumlah</TABLE>	
 			<Th><TABLE WIDTH=>Kondisi</TABLE>	
-			<Th><TABLE WIDTH=>Tahun Perolahan</TABLE>	
+			<Th><TABLE WIDTH=>Tahun Perolehan</TABLE>	
 			<Th><TABLE WIDTH=>Nilai Rp.</TABLE>	
 			<Th><TABLE WIDTH=>Sumber</TABLE>	
 			<Th><TABLE WIDTH=>Photo</TABLE>	
@@ -98,17 +98,17 @@ $TOPIK=$data_cari[TOPIK];
 		if ($PHOTO2==''){$VIDEO='';}else {;}
 		if ($PHOTO2<>''){$VIDEO='PLAY VIDEO';}else {;}
 
-			echo "<TR>
-			<th VALIGN=TOP><TABLE WIDTH=><td  ALIGN=right bgcolor=>$no.</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[JENIS]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[MERK]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[JUMLAH]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[KONDISI]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[TAHUN]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[NILAI]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[SUMBER]</TABLE>
-			<Th VALIGN=TOP><TABLE WIDTH=><td ALIGN=CENTER bgcolor=><img src='ADMIN/PHOTO/$PHOTO1' width=$W1 height=$H1></TABLE>
-			<Th VALIGN=TOP><TABLE WIDTH=><td ALIGN=CENTER bgcolor=><a href='ADMIN/$PHOTO2?HAK=$HAK&DENAH=$DENAH&KODE=$KODE'>$VIDEO</TABLE>
+		        echo "<TR>
+                        <td VALIGN=TOP>$no.</td>
+                        <td VALIGN=TOP>$data_cari[JENIS]</td>
+                        <td VALIGN=TOP>$data_cari[MERK]</td>
+                        <td VALIGN=TOP>$data_cari[JUMLAH]</td>
+                        <td VALIGN=TOP>$data_cari[KONDISI]</td>
+                        <td VALIGN=TOP>$data_cari[TAHUN]</td>
+                        <td VALIGN=TOP>$data_cari[NILAI]</td>
+                        <td VALIGN=TOP>$data_cari[SUMBER]</td>
+                        <td VALIGN=TOP><img src='ADMIN/PHOTO/$PHOTO1' widtd=$W1 height=$H1></td>
+                        <td VALIGN=TOP><a href='ADMIN/$PHOTO2?HAK=$HAK&DENAH=$DENAH&KODE=$KODE'>$VIDEO</td>
 
 <tr>";
 $no++;		}
