@@ -27,7 +27,9 @@ $ID=$_GET['ID'];
 <input type=SUBMIT value=Tambah></form>
 
 ";
-
+?>
+<a href="PERATURAN/pdf.php" class="btn btn-primary">Daftar Peraturan</a>
+<?php
 $no=1;
 echo"
 <table width='95%' border='1' align='center' cellpadding='0' cellspacing='0' bgcolor=#FFFFFF>
