@@ -33,7 +33,14 @@
 // include_once "koneksi/koneksi.php";
 ?>
   <body id="page-top">
-
+<?PHP
+// include_once "../koneksi/koneksi.php";
+// $G='<hr noshade color=#000000 size=3>';
+$MENU=$_GET['MENU'];
+$UNIT=$_GET['UNIT'];
+// $HAK=$_GET['HAK'];
+// $ID=$_GET['ID'];
+?>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
@@ -44,17 +51,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
+              <a class="nav-link js-scroll-trigger" href="../../index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.php?SET=RUANG">Tata Ruang Kantor</a>
+              <a class="nav-link js-scroll-trigger" href="../index.php?MENU=<?php echo $MENU;?>&UNIT=<?php echo $UNIT; ?>">ESC</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.php?SET=ATURAN">Koleksi Peraturan</a>
+              <a class="nav-link js-scroll-trigger" href="../index.php?SET=TARUNG&MENU=<?php echo $MENU;?>&UNIT=<?php echo $UNIT; ?>">Tata Ruang Kantor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.php?SET=admin">Admin</a>
+              <a class="nav-link js-scroll-trigger" href="../index.php?SET=PERATURAN&MENU=<?php echo $MENU;?>&UNIT=<?php echo $UNIT; ?>">Koleksi Peraturan</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../index.php?SET=STATISTIK&MENU=<?php echo $MENU;?>&UNIT=<?php echo $UNIT; ?>">Statistik</a>
           </ul>
         </div>
       </div>

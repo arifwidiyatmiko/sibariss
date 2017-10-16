@@ -28,7 +28,7 @@ $ID=$_GET['ID'];
 
 ";
 ?>
-<a href="PERATURAN/pdf.php" class="btn btn-primary">Daftar Peraturan</a>
+<a href="PERATURAN/pdf.php?UNIT=<?PHP echo $_GET['UNIT'];?>&MENU=<?php echo $_GET['MENU'];?>" class="btn btn-primary">Daftar Peraturan</a>
 <?php
 $no=1;
 echo"
