@@ -24,9 +24,10 @@ $ID=$_GET['ID'];
 				<input type='hidden' name=MENU value='$MENU'>
 				<input type='hidden' name=SET value='$SET'>
 				<input type='hidden' name=HAK value='DEPUTI2'>
-<input type=SUBMIT value=Tambah></form>
+<input type=submit class=btn btn-success value=Tambah></form>
 
 ";
+
 ?>
 <a href="PERATURAN/pdf.php?UNIT=<?PHP echo $_GET['UNIT'];?>&MENU=<?php echo $_GET['MENU'];?>" class="btn btn-primary">Daftar Peraturan</a>
 <?php
