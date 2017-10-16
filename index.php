@@ -72,7 +72,10 @@ include_once "koneksi/koneksi.php";
       <div class="container-fluid" style="margin-top: -100px;">
         <div class="row">
           <!-- <div class="col-lg-12"> -->
-            <div class="col-sm-1">
+            <?php
+              if($_GET['SET']==''){
+                ?>
+                <div class="col-sm-1">
               <div class="list-group">
                 <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-22</a>
                 <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-21</a>
@@ -98,6 +101,10 @@ include_once "koneksi/koneksi.php";
                 <a href="index.php?DENAH=&HAK=" class="list-group-item active">F-01</a>
               </div> 
             </div>
+            <?php
+              }
+            ?>
+            
             <div class="col-sm-9">
               <?php
                 $SET= $_GET['SET'];

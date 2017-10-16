@@ -59,7 +59,7 @@
         </div>
         <td id="awalan" width="90%" valign="top" bgcolor="#CCCCCC">
           <!-- <button onclick="toData()" type="button" class="btn btn-default">button</button>  -->
-          <img src="umum/tower.jpg" class="img-responsive" alt="Image" onclick="toData()">
+          <img src="umum/dep2.jpg" class="img-responsive" width="1190px" height="1000px" alt="Image" onclick="toData()">
         </td>
       <td id="data" width="90%" valign="top" bgcolor="#CCCCCC"> 
         <?php
