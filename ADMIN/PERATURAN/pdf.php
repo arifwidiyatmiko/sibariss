@@ -78,33 +78,61 @@
                 <th>Download</th>
               </tr>
               <tr>
-                <td>KMK-No.-137-KM.06-2014-Tentang-Perubahan-Ketiga-Atas-Peraturan-Menteri-Keuangan-Nomor-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara</td>
-                <td><a href="Peraturan Tentang Kodefikasi/KMK-No.-137-KM.06-2014-Tentang-Perubahan-Ketiga-Atas-Peraturan-Menteri-Keuangan-Nomor-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara.pdf">Download</a></td>
+                <td colspan="2" style="text-align: center;"><b>Peraturan tentang Kodefikasi</b></td>
               </tr>
+                  <tr>
+                    <td>KMK-No.-137-KM.06-2014-Tentang-Perubahan-Ketiga-Atas-Peraturan-Menteri-Keuangan-Nomor-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara</td>
+                    <td><a href="Peraturan Tentang Kodefikasi/KMK-No.-137-KM.06-2014-Tentang-Perubahan-Ketiga-Atas-Peraturan-Menteri-Keuangan-Nomor-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>KKMK_Nomor_14km62015_Perubahan-Keempat-PMK-Nomor-29_2010-Tentang-Penggolongan-dan-Kodefikasi-BMN</td>
+                    <td><a href="Peraturan Tentang Kodefikasi/KMK_Nomor_14km62015_Perubahan-Keempat-PMK-Nomor-29_2010-Tentang-Penggolongan-dan-Kodefikasi-BMN.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>PMK-No.-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara</td>
+                    <td><a href="Peraturan Tentang Kodefikasi/PMK-No.-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>PMK-No.-97-PMK.06-2007-Tentang-Penggolongan-dan-Kodefikasi-Barang-MIlik-Negara</td>
+                    <td><a href="Peraturan Tentang Kodefikasi/PMK-No.-97-PMK.06-2007-Tentang-Penggolongan-dan-Kodefikasi-Barang-MIlik-Negara.pdf">Download</a></td>
+                  </tr>
               <tr>
-                <td>KKMK_Nomor_14km62015_Perubahan-Keempat-PMK-Nomor-29_2010-Tentang-Penggolongan-dan-Kodefikasi-BMN</td>
-                <td><a href="Peraturan Tentang Kodefikasi/KMK_Nomor_14km62015_Perubahan-Keempat-PMK-Nomor-29_2010-Tentang-Penggolongan-dan-Kodefikasi-BMN.pdf">Download</a></td>
+                <td colspan="2" style="text-align: center"><b>Peraturan tentang Pelimpahan Wewenang</b></td>
               </tr>
+                   <tr>
+                    <td>KMK-229-KM.6-2016-Tentang-Pelimpahan-Sebagian-Wewenang-Menteri-Keuangan-Yang-Telah-Dilimpahkan-Kepada-Direktur-Jenderal-Kekayaan-Negara</td>
+                    <td><a href="Peraturan Tentang Pelimpahan Wewenang/KMK-229-KM.6-2016-Tentang-Pelimpahan-Sebagian-Wewenang-Menteri-Keuangan-Yang-Telah-Dilimpahkan-Kepada-Direktur-Jenderal-Kekayaan-Negara.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>PMK-4-Tahun-2015-Tentang-pendelegasian-sbagian-kewenangan-ke-pengguna-barang</td>
+                    <td><a href="Peraturan Tentang Pelimpahan Wewenang/PMK-4-Tahun-2015-Tentang-pendelegasian-sbagian-kewenangan-ke-pengguna-barang.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>SK-KEP68KBIV2013-Pelimpahan-Wewenang-Pembentukan-Panitia-Penghapusan-Barang-Milik-Negara</td>
+                    <td><a href="Peraturan Tentang Pelimpahan Wewenang/SK-KEP68KBIV2013-Pelimpahan-Wewenang-Pembentukan-Panitia-Penghapusan-Barang-Milik-Negara.pdf">Download</a></td>
+                  </tr>
               <tr>
-                <td>PMK-No.-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara</td>
-                <td><a href="Peraturan Tentang Kodefikasi/PMK-No.-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara.pdf">Download</a></td>
+                <td colspan="2" style="text-align: center"><b>Peraturan tentang Pemanfaatan Barang Milik Negara</b></td>
               </tr>
+                  <tr>
+                    <td>NOMOR 33PMK.062012 Tentang Tata Cara Pelaksanaan Sewa Barang Milik Negara</td>
+                    <td><a href="Peraturan Tentang Pemanfaatan barang Milik Negara/NOMOR 33PMK.062012 Tentang Tata Cara Pelaksanaan Sewa Barang Milik Negara.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>Peraturan-Menteri-Keuangan-Nomor-65-PMK.06-2016-Tentang-Perubahan-Atas-Peraturan-Menteri-Keuangan-Nomor-164-PMK.06-2014</td>
+                    <td><a href="Peraturan Tentang Pemanfaatan barang Milik Negara/Peraturan-Menteri-Keuangan-Nomor-65-PMK.06-2016-Tentang-Perubahan-Atas-Peraturan-Menteri-Keuangan-Nomor-164-PMK.06-2014.pdf">Download</a></td>
+                  </tr>
+                  <tr>
+                    <td>PMK-78-Tahun-2014-Pemanfaatan-BMN</td>
+                    <td><a href="Peraturan Tentang Pemanfaatan barang Milik Negara/PMK-78-Tahun-2014-Pemanfaatan-BMN.pdf">Download</a></td>
+                  </tr>
               <tr>
-                <td>PMK-No.-97-PMK.06-2007-Tentang-Penggolongan-dan-Kodefikasi-Barang-MIlik-Negara</td>
-                <td><a href="Peraturan Tentang Kodefikasi/PMK-No.-97-PMK.06-2007-Tentang-Penggolongan-dan-Kodefikasi-Barang-MIlik-Negara.pdf">Download</a></td>
+                <td colspan="2" style="text-align: center"><b>Peraturan tentang Penatausahaan Barang Milik Negara</b></td>
               </tr>
-               <tr>
-                <td>KMK-229-KM.6-2016-Tentang-Pelimpahan-Sebagian-Wewenang-Menteri-Keuangan-Yang-Telah-Dilimpahkan-Kepada-Direktur-Jenderal-Kekayaan-Negara</td>
-                <td><a href="Peraturan Tentang Pelimpahan Wewenang/KMK-229-KM.6-2016-Tentang-Pelimpahan-Sebagian-Wewenang-Menteri-Keuangan-Yang-Telah-Dilimpahkan-Kepada-Direktur-Jenderal-Kekayaan-Negara.pdf">Download</a></td>
-              </tr>
-              <tr>
-                <td>PMK-4-Tahun-2015-Tentang-pendelegasian-sbagian-kewenangan-ke-pengguna-barang</td>
-                <td><a href="Peraturan Tentang Pelimpahan Wewenang/PMK-4-Tahun-2015-Tentang-pendelegasian-sbagian-kewenangan-ke-pengguna-barang.pdf">Download</a></td>
-              </tr>
-              <tr>
-                <td>SK-KEP68KBIV2013-Pelimpahan-Wewenang-Pembentukan-Panitia-Penghapusan-Barang-Milik-Negara</td>
-                <td><a href="Peraturan Tentang Pelimpahan Wewenang/SK-KEP68KBIV2013-Pelimpahan-Wewenang-Pembentukan-Panitia-Penghapusan-Barang-Milik-Negara.pdf">Download</a></td>
-              </tr>
+                  <tr>
+                    <td>PMK-109-PMK.06-2009-Pedoman-Pelaksanaan-Inventarisasi-BMN</td>
+                    <td><a href="Peraturan Tentang Penatausahaan barang Milik Negara/PMK-109-PMK.06-2009-Pedoman-Pelaksanaan-Inventarisasi-BMN.pdf">Download</a></td>
+                  </tr>
             </table>
 
           <!-- </div> -->
