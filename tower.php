@@ -3,7 +3,7 @@
     <tr> 
       <td valign="top" bgcolor="<?PHP ECHO"$WARNA"?>">
         <?php 
-        if ($_GET['DENAH']) {
+        if ($_GET['DENAH'] && !$_GET['KODE']) {
           ?>
           <script type="text/javascript">
   $(document).ready(function(){
@@ -18,7 +18,23 @@
 
 </script>
           <?php
-        }else{
+        }elseif($_GET['KODE'] && $_GET['DENAH'] ){
+            ?>
+           <script type="text/javascript">
+  $(document).ready(function(){
+    $('#awalan').hide();
+    $('#data').show();
+    
+});
+  function toData() {
+      $('#awalan').hide();
+      $('#data').show();
+    }
+
+</script>
+          <?php
+        }
+        else{
           ?>
            <script type="text/javascript">
   $(document).ready(function(){
