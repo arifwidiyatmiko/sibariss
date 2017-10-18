@@ -91,7 +91,7 @@ $UNIT=$_GET['UNIT'];
               </tr>
                   <tr>
                     <td>KMK-No.-137-KM.06-2014-Tentang-Perubahan-Ketiga-Atas-Peraturan-Menteri-Keuangan-Nomor-29-PMK.06-2010-Tentang-Penggolongan-dan-Kodefikasi-Barang-Milik-Negara</td>
-                    <td><a href="PERATURAN UMUM/247_PMK.06_2016-Tentang-Pengasuransian-Barang-Milik-Negara.pdf">Download</a></td>
+                    <td><a href="../ADMIN/PERATURAN/PERATURAN UMUM/247_PMK.06_2016-Tentang-Pengasuransian-Barang-Milik-Negara.pdf">Download</a></td>
                   </tr>
                   <tr>
                     <td>KMK-059-2013-Tabel_Masa_Manfaat</td>
