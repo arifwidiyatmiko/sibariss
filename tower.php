@@ -1,7 +1,7 @@
 <table width="100%" border="1" align="center" cellpadding="5" cellspacing="5">
   <tbody>
     <tr> 
-      <td valign="top" bgcolor="<?PHP ECHO"$WARNA"?>">
+      
         <?php 
         if ($_GET['DENAH'] && !$_GET['KODE']) {
           ?>
@@ -59,14 +59,14 @@
         </div>
         <td id="awalan" width="90%" valign="top" bgcolor="#CCCCCC">
           <!-- <button onclick="toData()" type="button" class="btn btn-default">button</button>  -->
-          <img src="umum/dep2.jpg" class="img-responsive" width="1190px" height="1000px" alt="Image" onclick="toData()">
+          <img src="umum/dep2.jpg" class="img-responsive" width="1000" height="700" alt="Image" onclick="toData()">
         </td>
-      <td id="data" width="90%" valign="top" bgcolor="#CCCCCC"> 
+      <td id="data" width="90%" valign="top"> 
         <?php
 $DENAH= $_GET['DENAH'];
 	if ($DENAH=='') {ECHO'
-    <div align=center valign=middle><img src="umum/tower.jpg" width=700 height=700>
-    <p>Pada saat ini sebagian besar instansi belum memiliki sistem yang menyediakan informasi inventarisasi alat/barang yang berbasis spasial. Kemenko Bidang Kemaritiman, sebagai salah satu kementerian yang sangat baru dengan sumber daya yang juga terbatas harus mampu memanfaatkan teknologi informasi untuk mendukung sekaligus mengelola teknologi informasi untuk mendukung sekaligus mengelola berbagai tugas dan fungsinya. Salah satu fungsi Sekretariat adalah mengolah Barang Milik Negara (BMN). Sistem ini merupakan model sistem informasi barang yang dapat diintegrasikan data nummerik dan visual berdasarkan lokasi. SIBARISS dapat memberikan informasi dan membantu pengguna dalam melakukan pendataan barang secara lengkap dan pelacakan dimana posisi barang itu berada.</p>
+    <div align=center valign=middle><img src="umum/tower2.jpg" width=1000 height=700>
+    
     ';}else {;}
 	if ($DENAH=='denah8') {$JURNAL='denah8.php';}else {;}
 $KODE= $_GET['KODE'];
