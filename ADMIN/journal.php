@@ -7,8 +7,9 @@ $ID=$_GET['ID'];
 $TOPIK=$_POST['TOPIK'];
 $SUMBER=$_GET['SUMBER'];
 $KODE=$_GET['KODE'];
-
+$dir = "/";
 $tmp=$_FILES['foto']['tmp_name'];
+// echo $MENU;exit();
 if(!is_uploaded_file($tmp)){
    echo "";
 }
