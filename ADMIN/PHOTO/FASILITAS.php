@@ -147,7 +147,8 @@ else if ($_GET['DISPLAY']=='data') {
 			<Th><TABLE WIDTH=>Daftar Inventaris</font></TABLE>	
 			<Th><TABLE WIDTH=>Merk</TABLE>	
 			<Th><TABLE WIDTH=>Jumlah</TABLE>	
-			<Th><TABLE WIDTH=>Kondisi</TABLE>	
+			<Th><TABLE WIDTH=>Kondisi Baik</TABLE>
+			<Th><TABLE WIDTH=>Kondisi Rusak</TABLE>	
 			<Th><TABLE WIDTH=>Tahun Perolahan</TABLE>	
 			<Th><TABLE WIDTH=>Nilai Rp.</TABLE>	
 			<Th><TABLE WIDTH=>Sumber</TABLE>	
@@ -199,7 +200,8 @@ $TOPIK=$data_cari[TOPIK];
 			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[JENIS]</TABLE>
 			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[MERK]</TABLE>
 			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[JUMLAH]</TABLE>
-			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[KONDISI]</TABLE>
+			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[BAIK]</TABLE>
+			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[RUSAK]</TABLE>
 			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[TAHUN]</TABLE>
 			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[NILAI]</TABLE>
 			<th VALIGN=TOP><TABLE WIDTH=><td bgcolor=>$data_cari[SUMBER]</TABLE>

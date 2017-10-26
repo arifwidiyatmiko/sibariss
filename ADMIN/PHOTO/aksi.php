@@ -5,7 +5,7 @@ $MENU=$_GET['MENU'];
 $TOPIK=$_GET['TOPIK'];
 $HAK=$_GET['HAK'];
 $ID=$_GET['ID'];
-
+// echo $TOPIK;die();
 $sql_address="SELECT * FROM amar_photo_sigap WHERE ID='$ID'";
 $qry_address=mysql_query($sql_address, $konek)
 	or die ("gagal menampilkan".mysql_error());
@@ -23,9 +23,11 @@ if ($TOPIK=='') {$SUB='HIDDEN';}else {;}
 if ($TOPIK<>'') {$SUB='SUBMIT';}else {;}
 
 	$sql_cari="SELECT * FROM amar_photo_sigap WHERE TOPIK='$TOPIK' ORDER BY ID DESC";
+
 	$qry_cari = mysql_query($sql_cari, $konek) 
 				or die ("Gagal query");
 	$jumlah=mysql_num_rows($qry_cari);
+
 	if ($jumlah=='') {
 	echo "
 <form action=_add.php method=get name=form1 target=_self>
