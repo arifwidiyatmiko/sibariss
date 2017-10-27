@@ -60,11 +60,9 @@ include_once "koneksi/koneksi.php";
       </div>
     </nav>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Sibariss</h1>
-        <!-- <img src=""> -->
-        <p class="lead">Sistem Informasi Barang Inventaris berbasis spasial</p>
+    <header class="bg-primary text-white" style="margin: 0 0 0 0;">
+      <div class="container text-center" >
+        <img src="header.jpg">
       </div>
     </header>
 
